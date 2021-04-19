@@ -27,7 +27,7 @@ public class LandTractMain
         System.out.println("Length: " + LandTract2.getLength() + " - Width: " + LandTract2.getWidth());
         System.out.println("Area: " + LandTract2.getArea());
         
-        if(LandTract2.getArea() == LandTract1.getArea())
+        if(LandTract1.toString().equals(LandTract2.toString()))
         {
             System.out.println("Both areas are equal");
         }

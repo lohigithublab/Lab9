@@ -6,6 +6,7 @@ public class LandTract
     private double length;
     private double width;
     
+    
     public LandTract(double len, double wid) {
         this.length = len; 
         this.width = wid;
@@ -35,4 +36,10 @@ public class LandTract
     public double getArea() {
         return this.length * this.width;
     }
+
+    @Override
+    public String toString() {
+        return ""+getArea();
+    }
+    
 }
